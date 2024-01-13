@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & OpenGraph -->
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/images/og.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="">
+
+    <!-- Favicon -->
+
+    <!-- Preload Fonts -->
+    @@include('layout/_fonts.html')
+
+    <!-- Styles -->
+    @@include('layout/_styles.html')
+</head>
+
+<body>
+    <!--Request dialog--> 
+    @@include('modals/_request-dialog.html') 
+    <!--End Request dialog-->
+    <!-- Header -->
+    @@include('layout/_header.html')
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+        <section class="about-company">
+            <picture class="about-company__img">
+                <source srcset="./assets/images/man.avif" type="image/avif">
+                <source srcset="./assets/images/man.webp" type="image/webp">
+                <img src="./assets/images/man.png" alt="МУЖСКОЕ">
+            </picture>
+            <picture class="about-company__img">
+                <source srcset="./assets/images/woman.avif" type="image/avif">
+                <source srcset="./assets/images/woman.webp" type="image/webp">
+                <img src="./assets/images/woman.png" alt="ЖЕНСКОЕ">
+            </picture>
+        </section>
+
+        <div class="TOP__BREND">ТОП-БРЕНДЫ</div>
+        <section class="brand">
+            <div class="brand__wrap">
+                <div class="brand__menu"><!--Between-->
+                    <picture class="brand__menu__img"> <!-- Первая картинка-->
+                        <source srcset="./assets/images/brand1.avif" type="image/avif">
+                        <source srcset="./assets/images/brand1.webp" type="image/webp">
+                        <img src="./assets/images/brand1.png" alt="МУЖСКОЕ">
+                    </picture>
+                    <div class="brand__between"></div><!--Between-->
+                    <picture class="brand__menu__img1"> <!-- Вторая картинка-->
+                        <source srcset="./assets/images/brand2.avif" type="image/avif">
+                        <source srcset="./assets/images/brand2.webp" type="image/webp">
+                        <img src="./assets/images/brand2.png" alt="МУЖСКОЕ">
+                    </picture>
+                    <div class="brand__between"></div><!--Between-->
+                    <picture class="brand__menu__img"> <!-- Третья картинка-->
+                        <source srcset="./assets/images/brand3.avif" type="image/avif">
+                        <source srcset="./assets/images/brand3.webp" type="image/webp">
+                        <img src="./assets/images/brand3.png" alt="МУЖСКОЕ">
+                    </picture>
+                    <div class="brand__between"></div><!--Between-->
+                    <picture class="brand__menu__img2"> <!-- Четвёртая картинка-->
+                        <source srcset="./assets/images/brand4.avif" type="image/avif">
+                        <source srcset="./assets/images/brand4.webp" type="image/webp">
+                        <img src="../assets/images/brand4.png" alt="МУЖСКОЕ">
+                    </picture>
+                    <div class="brand__between"></div><!--Between-->
+                    <picture class="brand__menu__img"> <!-- Пятая картинка-->
+                        <source srcset="./assets/images/brand5.avif" type="image/avif">
+                        <source srcset="./assets/images/brand5.webp" type="image/webp">
+                        <img src="./assets/images/brand5.png" alt="МУЖСКОЕ">
+                    </picture>
+                    <div class="brand__between"></div> <!--Between-->
+                    <picture class="brand__menu__img"> <!-- Шестая картинка-->
+                        <source srcset="./assets/images/brand6.avif" type="image/avif">
+                        <source srcset="./assets/images/brand6.webp" type="image/webp">
+                        <img src="./assets/images/brand6.png" alt="МУЖСКОЕ">
+                    </picture>
+                </div>
+                <div class="all__brends">
+                    <div class="lal">
+                        <h0 class="all__brends__text">ВСЕ БРЕНДЫ</h0>
+                        <div class="all__brends__line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--COLLECTION-->
+        <section class="collection">
+            <div class="collection__wrap">
+                <h0 class="collection__title">
+                    <p></p>
+                    <p></p>
+                    КОЛЛЕКЦИЯ
+                </h0>
+                <div class="collection__cards">
+                    <div class="collection__card">
+                        <picture class="collection__card-img"> <!-- Первая коллеция-->
+                            <source srcset="./assets/images/collection1.avif" type="image/avif">
+                            <source srcset="./assets/images/collection1.webp" type="image/webp">
+                            <img src="./assets/images/collection1.png" alt="Коллекция1">
+                            <div class="collection__card-title"> <!-- Оглавление коллекции1-->
+                                <span class="s2">Спортивный костюм <span class="s1">Artigiani</span>, футболка <span
+                                        class="s1">Artigiani</span>, кеды <span class="s1">Santoni</span></span>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="collection__card">
+                        <picture class="collection__card-img"> <!-- Вторая коллекция-->
+                            <source srcset="./assets/images/collection2.avif" type="image/avif">
+                            <source srcset="./assets/images/collection2.webp" type="image/webp">
+                            <img src="./assets/images/collection2.png" alt="Коллекция2">
+                            <div class="collection__card-title"> <!-- Оглавление коллекции2-->
+                                <span class="s2">Пуховый жилет <span class="s1">Kiton</span>, джинсы <span
+                                        class="s1">Jacob Cohen</span>, футболка <span class="s1">Fedeli</span>,
+                                    кроссовки <span class="s1">Valentino</span>, бейсболка <span
+                                        class="s1">Kiton</span></span>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="collection__card">
+                        <picture class="collection__card-img"> <!-- Третья Коллекция-->
+                            <source srcset="./assets/images/collection3.avif" type="image/avif">
+                            <source srcset="./assets/images/collection3.webp" type="image/webp">
+                            <img src="./assets/images/collection3.png" alt="Коллекция2">
+                            <div class="collection__card-title"> <!-- Оглавление коллекции1-->
+                                <span class="s2">Парка <span class="s1">Artigiani</span>, джемпер <span
+                                        class="s1">Artigiani</span>,джинсы <span class="s1">Jacob Cohen</span>, челси
+                                    <span class="s1">Santoni</span></span>
+                            </div>
+                        </picture>
+                        <div class="collection__card-more-discription">
+                            <div class="lolka">
+                                <a class="collection__card-more" href="#">СМОТРЕТЬ БОЛЬШЕ</a>
+                                <div class="collection__card-more-discription-line">
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--СВАЙПЕР НОВИНКА-->
+        <section class="new">
+            <div class="container">
+                <div class="new__title">
+                    <h2 class="new__title-up">НОВИНКИ</h2>
+                    <p class="new__title__text">648 обновлений</p>
+                </div>
+                <div class="new__slider slider swiper">
+                    <div class="slider__wrapper swiper-wrapper">
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Bagg.avif" type="image/avif">
+                            <source srcset="./assets/images/Bagg.webp" type="image/webp">
+                            <img class="new__image1" src="/assets/images/Bagg.png" alt="Сумка"> <!--Исправить-->
+                            <b>SAINT LAURENT</b>
+                        </picture>
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Bootss.avif" type="image/avif">
+                            <source srcset="./assets/images/Bootss.avif" type="image/avif">
+                            <img class="new__image2" src="../assets/images/Bootss.png" alt="Ботинки">
+                            <b class="slider__block_text">BRUNELLO CUCINELLI</b>
+                        </picture>
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Jackett.avif" type="image/avif">
+                            <source srcset="./assets/images/Jackett.avif" type="image/avif">
+                            <img class="new__image3" src="../assets/images/Jackett.png" alt="Кожанка">
+                            <b class="slider__block_text">BRUNELLO CUCINELLI</b>
+                        </picture>
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Bagg.avif" type="image/avif">
+                            <source srcset="./assets/images/Bagg.webp" type="image/webp">
+                            <img class="new__image1" src="../assets/images/Bagg.png" alt="Сумка">
+                            <b>SAINT LAURENT</b>
+                        </picture>
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Bagg.avif" type="image/avif">
+                            <source srcset="./assets/images/Bagg.webp" type="image/webp">
+                            <img class="new__image1" src="/assets/images/Bagg.png" alt="Сумка"> <!--Исправить-->
+                            <b>SAINT LAURENT</b>
+                        </picture>
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Bootss.avif" type="image/avif">
+                            <source srcset="./assets/images/Bootss.avif" type="image/avif">
+                            <img class="new__image2" src="../assets/images/Bootss.png" alt="Ботинки">
+                            <b class="slider__block_text">BRUNELLO CUCINELLI</b>
+                        </picture>
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Jackett.avif" type="image/avif">
+                            <source srcset="./assets/images/Jackett.avif" type="image/avif">
+                            <img class="new__image3" src="../assets/images/Jackett.png" alt="Кожанка">
+                            <b class="slider__block_text">BRUNELLO CUCINELLI</b>
+                        </picture>
+                        <picture class="slider__block swiper-slide">
+                            <source srcset="./assets/images/Bagg.avif" type="image/avif">
+                            <source srcset="./assets/images/Bagg.webp" type="image/webp">
+                            <img class="new__image1" src="../assets/images/Bagg.png" alt="Сумка">
+                            <b>SAINT LAURENT</b>
+                        </picture>
+                    </div>
+                </div>
+                <div class="slider__nav">
+                    <button class="slider__prev reset-btn swiper-button-prev" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                            <rect x="61.5" y="61.5" width="61" height="61" transform="rotate(180 61.5 61.5)"
+                                stroke="#D9D9D9" />
+                            <line x1="40.2381" y1="16.5211" x2="22.4024" y2="31.3841" stroke="#969696" />
+                            <line y1="-0.5" x2="23.2168" y2="-0.5"
+                                transform="matrix(-0.768221 -0.640184 -0.640184 0.768221 39.918 46.8538)"
+                                stroke="#969696" />
+                        </svg>
+                    </button>
+                    <button class="slider__next reset-btn swiper-button-next" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                            <rect x="0.5" y="0.5" width="61" height="61" stroke="#D9D9D9" />
+                            <line x1="21.7622" y1="45.4789" x2="39.5978" y2="30.6159" stroke="#969696" />
+                            <line y1="-0.5" x2="23.2168" y2="-0.5"
+                                transform="matrix(0.768221 0.640184 0.640184 -0.768221 22.0823 15.1461)"
+                                stroke="#969696" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="slider__pagination">
+                    <div class="slider__page slider__page_active"></div>
+                    <div class="slider__page"></div>
+                    <div class="slider__page"></div>
+                </div>
+                <div class="slider__lolo"><a href="#" class="new__but but but__three" type="button">СМОТРЕТЬ ВСЕ</a></div>
+                <div class="slider__cherta">
+                    <div class="slider__cherta__metka">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--СВАЙПЕР  КОНЕЦ НОВИНКА-->
+
+        <section class="perfume">
+            <div class="perfume__wrap">
+                <div class="perfume__cards">
+                    <div class="perfume__card">
+                        <picture class="perfume__card-img"> <!-- Первая картинка-->
+                            <span class="perfume__title1">парфюм</span>
+                            <div class="perfume__title1-decoration"></div>
+                            <div class="perfume__card-title1">
+                                <p>Maison <br>Francis Kurkdjian <br>Baccarat Rouge 540</p>
+                            </div>
+                            <source srcset="./assets/images/perfume1.avif" type="image/avif">
+                            <source srcset="./assets/images/perfume1.webp" type="image/webp">
+                            <img src="./assets/images/perfume1.png" alt="ПАРФЮМ 1">
+                        </picture>
+                    </div>
+                    <div class="perfume__card">
+                        <picture class="perfume__card-img"> <!-- Первая картинка-->
+                            <span class="perfume__title2">запах месяца</span>
+                            <div class="perfume__title2-decoration"></div>
+                            <div class="perfume__card-title2">
+                                <p>Dr.Vranjes <br>Rosso Nibile</p>
+                            </div>
+                            <source srcset="./assets/images/perfume2.avif" type="image/avif">
+                            <source srcset="./assets/images/perfume2.webp" type="image/webp">
+                            <img src="./assets/images/perfume2.png" alt="ПАРФЮМ 2">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="discount"> <!--СКИДКИ МЕНЮ-->
+            <div class="discount__wrap">
+                <div class="discount__cards">
+                    <picture class="discount__card-img">
+                        <div class="discount__card-title"> <!--Скидки ДО-->
+                            <span class="discount__card-title-main1">СКИДКИ</span>
+                            <span class="discount__card-title-main2">до -70%</span>
+                        </div>
+                        
+                        <button type="button" data-a11y-dialog-show="dialog-request" class="discount__card-take-title">получить скидку</button>
+                        
+                        <source srcset="./assets/images/discount.avif" type="image/avif">
+                        <source srcset="./assets/images/discount.webp" type="image/webp">
+                        <img src="./assets/images/discount.png" alt="Скидка">
+                    </picture>
+                </div>
+        </section>
+
+<!--СЛАЙДЕР -->
+
+        <section class="rebate"> 
+            <div class="rebate__wrap">
+                <div class="rebate__cards">
+                    <div class="rebate__card-title">
+                        <h0>СКИДКИ</h0>
+                    </div>
+                </div>
+                <!--МЕНЮ-->
+                <div class="rebate__menu">
+                    <picture class="rebate__menu-img">
+                        <span class="rebate__menu-footer">
+                            <h0 class="rebate__text1">123 000 ₽   </h0>
+                            <h0 class="rebate__text2">96 000 ₽</h0>
+                        </span>
+                        <span class="rebate__menu-inside">
+                            <h0 class="rebate__menu-inside-dec">-70%</h0>
+                        </span>
+                        <svg class="rebate__menu-up" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78" fill="none">
+                            <circle cx="39" cy="39" r="39" fill="#E53030"/>
+                        </svg>
+                        <source srcset="./assets/images/Bagg.avif" type="image/avif">
+                        <source srcset="./assets/images/Bagg.webp" type="image/webp">
+                        <img class="new__image1" src="/assets/images/Bagg.png" alt="Сумка">
+                        <h0 class="rebate__menu-disc">Saint Laurent</h0>
+                    </picture>
+                    <picture class="rebate__menu-img">
+                        <span class="rebate__menu-footer1">
+                            <h0 class="rebate__text1">123 000 ₽   </h0>
+                            <h0 class="rebate__text2">96 000 ₽</h0>
+                        </span>
+                        <span class="rebate__menu-inside1">
+                            <h0 class="rebate__menu-inside-dec">-70%</h0>
+                        </span>
+                        <span class="rebate__menu-place1">
+                            <h0 class="rebate__menu-disc1">BRUNELLO CUCINELLI</h0>
+                        </span>
+                        <svg class="rebate__menu-up1" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78" fill="none">
+                            <circle cx="39" cy="39" r="39" fill="#E53030"/>
+                        </svg>
+                        <source srcset="./assets/images/Bootss.avif" type="image/avif">
+                        <source srcset="./assets/images/Bootss.avif" type="image/avif">
+                        <img class="new__image2" src="../assets/images/Bootss.png" alt="Ботинки">
+                        
+                    </picture>
+                    <picture class="rebate__manu-img">
+                        <span class="rebate__menu-footer2">
+                            <h0 class="rebate__text1">123 000 ₽   </h0>
+                            <h0 class="rebate__text2">96 000 ₽</h0>
+                        </span>
+                        <span class="rebate__menu-inside2">
+                            <h0 class="rebate__menu-inside-dec">-70%</h0>
+                        </span>
+                        <span class="rebate__menu-place2">
+                            <h0 class="rebate__menu-disc2">BRUNELLO CUCINELLI</h0>
+                        </span>
+                        <svg class="rebate__menu-up2" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78" fill="none">
+                            <circle cx="39" cy="39" r="39" fill="#E53030"/>
+                        </svg>
+                        <source srcset="./assets/images/Jackett.avif" type="image/avif">
+                        <source srcset="./assets/images/Jackett.avif" type="image/avif">
+                        <img class="new__image3" src="../assets/images/Jackett.png" alt="Кожанка">
+                    </picture>
+                    <picture class="rebate__manu-img">
+                        <span class="rebate__menu-footer">
+                            <h0 class="rebate__text1">123 000 ₽   </h0>
+                            <h0 class="rebate__text2">96 000 ₽</h0>
+                        </span>
+                        <span class="rebate__menu-inside">
+                            <h0 class="rebate__menu-inside-dec">-70%</h0>
+                        </span>
+                        <svg class="rebate__menu-up" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78" fill="none">
+                            <circle cx="39" cy="39" r="39" fill="#E53030"/>
+                        </svg>
+                        <source srcset="./assets/images/Bagg.avif" type="image/avif">
+                        <source srcset="./assets/images/Bagg.webp" type="image/webp">
+                        <img class="new__image1" src="/assets/images/Bagg.png" alt="Сумка">
+                        <h0 class="rebate__menu-disc">Saint Laurent</h0>
+                    </picture>
+                    <div class="rebate__navigation">
+                        <svg class="rebate__nav" xmlns="http://www.w3.org/2000/svg" width="60" height="10" viewBox="0 0 60 10" fill="none">
+                            <circle cx="5" cy="5" r="5" fill="#333333"/>
+                            <circle cx="30" cy="5" r="5" fill="#D9D9D9"/>
+                            <circle cx="55" cy="5" r="5" fill="#D9D9D9"/>
+                        </svg>
+                    </div>
+                    <div class="rebate__navigation1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                            <rect x="61.5" y="61.5" width="61" height="61" transform="rotate(180 61.5 61.5)" stroke="#D9D9D9"/>
+                            <line x1="40.2381" y1="16.5211" x2="22.4024" y2="31.3841" stroke="#969696"/>
+                            <line y1="-0.5" x2="23.2168" y2="-0.5" transform="matrix(-0.768221 -0.640184 -0.640184 0.768221 39.918 46.8538)" stroke="#969696"/>
+                        </svg>
+                    </div>
+                    <div class="rebate__navigation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                            <rect x="0.5" y="0.5" width="61" height="61" stroke="#D9D9D9"/>
+                            <line x1="21.7622" y1="45.4789" x2="39.5978" y2="30.6159" stroke="#969696"/>
+                            <line y1="-0.5" x2="23.2168" y2="-0.5" transform="matrix(0.768221 0.640184 0.640184 -0.768221 22.0823 15.1462)" stroke="#969696"/>
+                        </svg>
+                    </div>
+                    <div class="rebate__predkonec">
+                        <a href="#" class="rebate__predkonec-text">СМОТРЕТЬ ВСЕ</a>
+                    </div>
+                    <div class="rebate__konec">
+                        <div class="rebate__konec-pic">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--МЕНЮ-->
+            </div>
+            
+        </section>
+
+<!--СЛАЙДЕР -->
+        <section class="italia">
+            <div class="italia__wrap">
+                <picture class="italia__card">
+                    <div class="italia__discription">
+                        <h0 class="italia__discription__text1">Изделия премиального качества из самых лучших материалов,
+                            ориентируясь <br>на традиции итальянских производителей</h0>
+                    </div>
+                    <span class="italia__footer">
+                        <a href="#" class="italia__footer__text">смотреть КОЛЛЕКЦИЮ</a>
+                    </span>
+                    <div class="italia__end">
+                        <div class="italia__end__border"></div>
+                    </div>
+                    <div class="italia__continer">
+                        <svg class="italia__continer__img1" xmlns="http://www.w3.org/2000/svg" width="250" height="92"
+                            viewBox="0 0 250 92" fill="none">
+                            <path
+                                d="M183.159 71.3907C183.084 72.1059 183.114 72.8513 183.256 73.6295C183.385 74.3577 183.709 74.9688 184.229 75.4646C184.747 75.9617 185.331 76.358 185.979 76.6558C186.627 76.9532 187.292 77.1671 187.973 77.301C188.654 77.4327 189.253 77.4998 189.773 77.4998C190.42 77.4998 191.198 77.3828 192.107 77.1521C193.015 76.921 193.955 76.6064 194.928 76.2091C194.928 76.2091 214.002 67.4872 218.272 64.3506C218.662 64.064 218.758 63.6732 218.758 63.4085C218.758 63.1443 218.433 63.0109 217.786 63.0109C217.46 62.9454 216.764 63.2437 215.694 63.9039C215.214 64.2008 214.669 64.5826 214.064 65.0392H214.062C214.062 65.0392 201.468 73.0338 195.353 73.4306H195.025C194.7 73.4306 194.262 73.3811 193.712 73.2817C193.31 73.2094 192.866 73.0235 192.378 72.7231C192.164 72.5914 191.994 72.2785 192.032 72.0263C192.573 68.4155 201.23 62.2444 201.23 62.2444C201.246 62.2271 201.259 62.2112 201.275 62.194C201.407 62.0756 201.967 61.6203 202.952 60.828C204.022 59.969 205.156 58.9593 206.356 57.8016C207.556 56.6443 208.625 55.4539 209.566 54.2291C210.506 53.0055 210.88 52.0303 210.685 51.3017C210.62 50.9711 210.408 50.641 210.053 50.3088C209.695 49.9787 209.289 49.6981 208.837 49.4653C208.382 49.2342 207.928 49.0362 207.475 48.8701C207.02 48.7061 206.663 48.6222 206.405 48.6222C205.302 48.6222 204.232 49.0685 203.195 49.9619L202.049 50.9772L197.651 54.8742L195.772 56.6809L191.492 60.5711L188.576 63.2738C186.457 65.3108 181.354 69.8607 180.39 70.5062C179.255 71.2676 178.057 72.1115 176.792 73.0373C176.048 73.5826 175.361 74.1011 174.718 74.6004C172.543 76.0705 167.901 78.6993 166.335 79.5863C164.585 80.5787 162.866 81.5711 161.181 82.5632C158.586 84.0178 156.123 85.2926 153.789 86.384C151.454 87.4754 149.151 88.0216 146.882 88.0216C146.168 88.0216 145.698 87.9381 145.472 87.7733C145.244 87.6076 145.105 87.3898 145.034 87.1286C144.743 86.0574 145.43 85.2496 145.43 85.2496L152.815 76.6593C153.648 75.7116 154.514 74.8427 155.411 74.056C155.43 74.0366 155.45 74.0172 155.469 73.9979C157.274 71.9609 159.065 70.1688 160.84 68.6208C162.623 67.0671 164.406 65.5948 166.19 64.2047C167.973 62.8155 169.756 61.4262 171.539 60.037C173.322 58.6477 175.153 57.0605 177.035 55.2736C180.211 52.2321 183.469 49.1386 186.81 45.9952C190.149 42.8539 193.473 39.8275 196.78 36.9151C197.752 36.0565 198.643 35.2457 199.454 34.4844C200.265 33.7243 201.075 32.963 201.886 32.2017C202.697 31.4416 203.523 30.6812 204.367 29.9194C205.209 29.1594 206.149 28.3813 207.187 27.5872C208.095 26.8599 209.311 26.3964 210.835 26.198C212.358 25.9996 213.996 25.9001 215.747 25.9001C216.783 25.9001 218.048 25.8679 219.54 25.8012C221.031 25.7358 222.91 25.6695 225.182 25.6023C227.451 25.5378 230.223 25.5206 233.498 25.5533C236.772 25.5873 240.711 25.7357 245.316 25.9996C246.158 26.198 246.921 26.1485 247.602 25.8507C248.283 25.5533 248.817 25.19 249.206 24.7592C249.595 24.3297 249.79 23.9161 249.79 23.5185C249.79 23.1217 249.498 22.891 248.915 22.8238C248.331 22.891 247.407 22.9904 246.143 23.1217C244.878 23.2555 243.451 23.404 241.862 23.568C241.351 23.6217 240.791 23.6497 240.266 23.6958C240.288 23.6342 240.328 23.5813 240.348 23.5185C240.535 22.9456 240.692 22.4963 240.819 22.1675C240.83 22.1426 240.84 22.1219 240.852 22.0969C240.928 21.9708 241.101 21.8159 241.369 21.6334C241.661 21.4346 241.968 21.2035 242.293 20.9388C242.617 20.6754 242.909 20.3931 243.168 20.0948C243.245 20.0066 243.316 19.9141 243.381 19.8173C243.628 19.451 243.456 18.9449 243.049 18.7861C242.51 18.5756 241.917 18.3333 241.272 18.0609C240.331 17.6641 239.601 17.4653 239.084 17.4653C238.694 17.4653 238.24 17.5987 237.722 17.8621C237.202 18.1276 236.732 18.4573 236.311 18.8545C235.889 19.2517 235.548 19.7325 235.29 20.2937C235.03 20.8566 234.965 21.4346 235.095 22.0298C235.095 22.0969 235.176 22.2958 235.339 22.6259C235.5 22.9573 235.711 23.3205 235.971 23.7173C236.037 23.8202 236.147 23.8907 236.222 23.9863C234.76 24.0603 233.331 24.1145 231.991 24.1145C230.369 24.1145 228.781 24.0986 227.224 24.065C225.668 24.0319 224.225 23.9824 222.896 23.9161C221.566 23.8507 220.431 23.8008 219.491 23.7668C218.551 23.7345 217.919 23.7173 217.595 23.7173C216.168 23.7173 215.13 23.5525 214.482 23.2211C213.833 22.891 213.704 22.2286 214.094 21.2366C214.482 20.2442 215.195 19.2685 216.233 18.3092C217.27 17.3503 218.34 16.4083 219.443 15.4808C220.545 14.5555 221.534 13.6943 222.41 12.9003C223.285 12.1067 223.723 11.3471 223.723 10.6184C223.723 9.89111 223.657 9.37768 223.528 9.08029C223.398 8.78204 223.236 8.55135 223.042 8.38566C222.847 8.22083 222.619 8.08784 222.361 7.98843C222.231 7.93893 222.101 7.86879 221.971 7.77755C221.717 7.5998 221.387 7.57183 221.133 7.74828C219.604 8.80614 218.117 10.0267 216.671 11.4125C215.081 12.9351 213.461 14.4884 211.807 16.076C210.154 17.6641 208.484 19.1868 206.798 20.6405C205.111 22.0969 203.328 23.3205 201.449 24.3125C200.476 24.8432 199.341 25.1728 198.044 25.3054C196.746 25.4384 195.466 25.5206 194.202 25.5533C192.938 25.5873 191.722 25.6372 190.555 25.7022C190.425 25.7091 190.299 25.7185 190.176 25.7284C190.176 25.728 190.176 25.728 190.175 25.728L175.284 26.4958C174.83 26.4958 173.777 26.5298 172.123 26.5952C170.469 26.6619 168.49 26.7609 166.19 26.893C163.887 27.026 161.424 27.1749 158.798 27.3393C156.172 27.505 153.691 27.6862 151.357 27.885C150.058 28.0185 148.763 28.1007 147.466 28.1334C146.168 28.1674 145.001 28.2173 143.964 28.2827C142.926 28.3485 142.1 28.4802 141.484 28.6791C140.867 28.8775 140.624 29.1749 140.755 29.5721C140.624 29.9035 140.77 30.1673 141.193 30.3661C141.614 30.5641 142.181 30.7475 142.894 30.9119C143.607 31.0776 144.402 31.2092 145.277 31.3087C146.152 31.4076 147.011 31.4916 147.854 31.5566C147.855 31.5566 147.856 31.5566 147.856 31.5566C148.569 31.4253 149.541 31.2932 150.773 31.1593C152.004 31.0281 153.205 30.8964 154.372 30.7629C155.734 30.6312 157.159 30.4991 158.651 30.3661L163.859 29.6186C164.411 29.5398 164.965 29.4817 165.521 29.4542C166.274 29.4172 167.356 29.3242 168.767 29.1749C170.648 28.9769 172.707 28.7626 174.944 28.5302C177.181 28.2991 179.401 28.0834 181.606 27.885C183.81 27.6862 189.517 27.2623 190.944 27.2623C190.944 27.2619 190.943 27.2614 190.943 27.2614C191.371 27.2799 191.823 27.2898 192.305 27.2898C193.213 27.2898 194.072 27.307 194.884 27.3393C195.693 27.3733 196.357 27.4727 196.877 27.6367C197.401 27.8063 197.536 28.5 197.117 28.862C192.985 32.4328 188.852 35.8934 184.719 39.2473C180.439 42.7209 176.16 46.0447 171.88 49.2208C169.48 50.9414 167.146 52.6113 164.877 54.2321C162.606 55.8542 160.337 57.3919 158.068 58.8466C156.641 59.7736 155.068 60.6825 153.351 61.5751C151.632 62.4686 149.881 63.3289 148.098 64.1552L138.129 68.5713C138.129 68.5713 138.128 68.5713 138.128 68.5713C120.466 74.8031 124.398 69.1527 124.398 69.1527L139.631 48.2779C141.09 46.1286 141.819 44.5904 141.819 43.6634C141.819 43.2662 141.688 42.8694 141.43 42.4726C141.17 42.0757 140.862 41.6957 140.506 41.3316C140.149 40.9688 139.841 40.5871 139.582 40.1903C139.322 39.793 139.193 39.3962 139.193 38.999C139.193 38.1408 139.419 37.4781 139.874 37.0145C140.327 36.5523 140.684 36.0225 140.944 35.4269C141.073 35.0964 140.976 34.5838 140.652 33.8892C140.407 33.365 140.214 32.8942 139.918 32.6278C136.993 30.0008 127.912 39.5766 127.912 39.5766C99.7094 65.2161 94.8338 67.2815 94.8338 67.2815C87.7985 71.4191 83.8898 72.4236 81.8264 72.52C80.4144 72.5862 79.089 71.6743 78.7418 70.2786C78.7401 70.2717 78.7384 70.2648 78.7367 70.2588C78.5745 69.5977 78.591 68.7701 78.7853 67.7772C78.98 66.7852 79.3352 65.5789 79.8552 64.1552C80.3734 62.7333 81.0864 60.964 81.995 58.8466C82.5132 57.7891 83.097 56.6805 83.7458 55.5219C84.3933 54.3655 85.0421 53.2396 85.6917 52.1482C86.3388 51.0564 87.0045 50.0489 87.6853 49.1214C87.6921 49.1119 87.6989 49.1029 87.7056 49.0934C88.7497 47.6771 89.9852 46.4195 91.3571 45.3307L121.534 21.3851C122.581 20.4314 123.517 19.3645 124.344 18.184C124.551 17.8875 124.511 17.4773 124.261 17.2174C123.741 16.6764 123.302 16.1969 122.944 15.7782C122.489 15.2501 121.906 15.183 121.194 15.5802C120.155 16.1759 118.047 17.5324 114.871 19.6485C111.693 21.7668 107.835 24.3465 103.297 27.3888C101.741 28.448 100.233 29.5394 98.7738 30.6635C97.3144 31.7894 95.6443 32.9462 93.7643 34.1366L85.9346 39.0489L77.7154 43.9612C74.0191 46.2775 70.3718 48.6256 66.7735 51.0069C63.1739 53.3886 59.5588 55.7053 55.9279 57.9531C54.5662 58.8138 53.204 59.6402 51.8426 60.4342C50.4804 61.2282 49.1191 62.0219 47.7578 62.8155L40.6086 66.5864C39.7967 66.9836 39.0039 67.3804 38.2251 67.7772C36.3437 68.7043 34.5445 69.5142 32.8273 70.2084C31.1085 70.9035 29.4062 71.5486 27.721 72.1438C24.9319 73.0708 22.3816 73.7758 20.0851 74.3271C12.4732 76.1536 10.4558 75.1207 10.4558 75.1207C9.77508 74.8569 9.19147 74.3116 8.70526 73.4831C8.21884 72.6572 7.97563 71.2848 7.97563 69.3649C7.97563 67.8444 8.25069 66.2735 8.80258 64.6514C8.80258 64.6514 10.8246 58.6025 14.5411 53.8843C14.5411 53.8843 21.8018 45.2183 33.8483 35.7247C36.0439 33.9942 38.3061 32.3179 40.6086 30.6635C42.9096 29.0109 45.2285 27.3888 47.5626 25.8012C51.5174 23.2211 55.4418 20.774 59.3319 18.4573C63.2225 16.1427 66.9344 14.0761 70.4694 12.2556C74.0026 10.4373 77.244 8.94859 80.1956 7.79046C80.1956 7.79046 92.3354 1.97998 104.367 2.18355C104.367 2.18355 114.453 2.57217 112.147 9.97331C111.751 11.2451 111.061 12.3391 110.446 13.3969C109.828 14.4561 109.407 15.3164 109.181 15.977C108.971 16.5873 109.355 16.8877 110.331 16.8791C110.499 16.8778 110.663 16.8115 110.793 16.7018C112.387 15.353 113.698 13.8213 114.726 12.1067C115.795 10.3206 116.33 8.63399 116.33 7.04591C116.33 5.59125 115.956 4.40083 115.212 3.47338C114.465 2.54807 113.428 1.8358 112.099 1.33958C110.769 0.843796 109.229 0.496056 107.479 0.297653C105.728 0.0992508 103.846 0.000267029 101.837 0.000267029C98.7252 0.000267029 95.3689 0.233093 91.7706 0.694885C88.1715 1.15839 84.2324 1.98472 79.9528 3.17557C79.3035 3.30855 78.6548 3.47337 78.0068 3.67178C77.3661 3.86759 76.6941 4.06385 75.9904 4.2601C75.9743 4.26527 75.9583 4.27 75.9422 4.27516C75.9422 4.27516 72.055 5.65795 72.0216 5.66699L67.7239 7.23183C67.7057 7.23959 60.8943 10.1764 57.6301 12.0572C54.3546 13.9426 51.0642 15.7782 47.7578 17.5647C45.8199 18.5528 43.9305 19.7058 42.0895 21.0219C42.0744 21.0318 42.0591 21.0417 42.0441 21.0516C42.0441 21.0516 14.8006 38.8652 1.85585 61.1138C1.8509 61.1241 0.808634 63.8475 0.486236 65.2966C0.161034 66.7525 0 67.9761 0 68.9685C0 69.6971 0.194363 70.7223 0.583254 72.0444C0.972308 73.3682 1.87961 74.7583 3.30681 76.2121C4.86287 77.8002 6.46793 78.7754 8.12148 79.1395C9.77508 79.5028 11.4441 79.6852 13.1305 79.6852C13.1305 79.6852 20.084 81.4214 58.2139 60.5831L69.1076 54.8273C70.3718 54.1327 71.3767 53.5542 72.1226 53.0907C72.8677 52.6285 73.4189 52.2967 73.7758 52.0983C73.9448 52.0045 74.0879 51.9253 74.2058 51.8612C74.4672 51.7187 74.7714 51.652 75.0565 51.7355C75.3585 51.8237 75.5321 52.0436 75.576 52.3957C75.6394 52.9268 75.527 53.6365 75.2351 54.5295C74.9462 55.4135 74.515 56.4279 73.9401 57.5705C73.93 57.5933 73.9194 57.6174 73.9093 57.6406L70.7287 66.147C70.7198 66.1758 70.7106 66.2059 70.7017 66.2343C70.3824 67.5392 70.1762 68.6483 70.0799 69.5637C69.9824 70.4912 69.998 71.3498 70.1289 72.1438C70.1289 72.1438 69.9845 76.1768 75.4784 78.296C75.4784 78.296 78.5884 79.0702 83.0167 76.9562C83.0167 76.9562 94.3603 73.623 132.336 41.0833C133.182 40.3577 134.004 40.1576 134.524 40.0909C134.524 40.0909 135.508 39.9437 136.341 40.9981C136.631 41.3661 136.655 41.8851 136.436 42.3013C135.579 43.9302 133.194 48.3269 131.314 50.5106C128.98 53.2242 126.646 55.8193 124.311 58.3004C121.977 60.7811 119.918 63.2127 118.135 65.5948C116.528 67.7389 115.54 69.9377 115.171 72.189C115.171 72.189 114.382 76.9722 122.075 76.411C122.85 76.3546 123.84 76.3116 125.041 76.1136C126.24 75.9147 127.521 75.6169 128.883 75.2201C130.244 74.8229 131.638 74.3611 133.066 73.8304L143.915 69.216C145.114 68.7198 146.849 67.8112 149.119 66.4874C150.35 65.7601 151.534 65.0659 152.67 64.4035C153.65 63.8324 154.571 63.285 155.43 62.7625C155.72 62.5861 156.111 62.6084 156.329 62.8714C156.476 63.0487 156.518 63.2811 156.463 63.5596C156.366 64.0567 156.089 64.6019 155.636 65.1971C155.182 65.7928 154.63 66.4224 153.983 67.0826C153.334 67.745 152.719 68.3733 152.135 68.9685C150.836 70.2252 149.411 71.4828 147.855 72.739C146.299 73.9966 144.823 75.2696 143.429 76.5594C142.034 77.8497 140.867 79.1228 139.928 80.3799C138.987 81.6361 138.518 82.8614 138.518 84.0514C138.518 84.7796 138.679 85.59 139.004 86.4834C139.327 87.376 139.782 88.2028 140.366 88.9641C140.95 89.7237 141.662 90.3534 142.506 90.8491C142.506 90.8491 149.123 94.0003 164.39 83.6055L183.159 71.3907Z"
+                                fill="white" />
+                        </svg>
+                        <svg class="italia__continer__img2" xmlns="http://www.w3.org/2000/svg" width="285" height="113"
+                            viewBox="0 0 285 113" fill="none">
+                            <path
+                                d="M160.56 27.632C159.036 28.7578 157.755 29.5841 156.718 30.1126C156.198 30.3777 155.566 30.7083 154.821 31.1055C154.076 31.5023 153.28 31.9335 152.439 32.3953C151.595 32.8588 150.769 33.3223 149.959 33.7846C149.147 34.2481 148.417 34.6449 147.77 34.9754C147.055 35.3727 146.165 35.9679 145.095 36.7615C144.025 37.5551 142.938 38.2841 141.837 38.9447C140.734 39.6071 139.664 40.0861 138.627 40.3831C138.18 40.5113 137.769 40.5574 137.395 40.5199C136.589 40.4394 136.067 39.6054 136.307 38.8182C136.595 37.8753 137.174 36.8097 138.043 35.6201C139.275 33.9335 140.864 32.1642 142.809 30.3115C144.755 28.4596 146.926 26.6395 149.327 24.8535C151.724 23.067 154.124 21.4643 156.524 20.0401C158.922 18.6186 161.207 17.4777 163.381 16.6165C165.553 15.7575 167.352 15.3267 168.779 15.3267C169.546 15.2626 170.249 15.2286 170.89 15.2273C170.91 15.2286 170.929 15.2299 170.948 15.2311C171.456 15.2979 171.933 15.3956 172.379 15.5255C172.751 15.6348 172.971 15.8556 173.038 16.187C173.064 16.317 173.028 16.4521 172.939 16.549C172.049 17.5134 170.939 18.6453 169.606 19.9416C168.211 21.2977 166.737 22.6375 165.181 23.9604C163.624 25.2843 162.083 26.5078 160.56 27.632ZM74.798 27.7744C73.7138 27.2433 73.2179 26.4183 73.3121 25.2998C73.4092 24.1433 73.862 22.8535 74.6734 21.4294C75.4832 20.0079 76.5704 18.5368 77.9317 17.0142C79.2939 15.4924 80.6874 14.1526 82.1146 12.9945C83.5401 11.8381 84.9184 10.9106 86.2485 10.216C87.5769 9.52139 88.5978 9.27348 89.312 9.47189C90.09 9.4069 90.5428 9.55538 90.6738 9.91862C90.803 10.2831 90.803 10.7294 90.6738 11.2584C90.5428 11.7882 90.3333 12.3171 90.0419 12.8456C89.75 13.3762 89.5072 13.7726 89.312 14.0369C88.9868 14.5671 88.4689 15.3611 87.756 16.4181C87.0421 17.4777 86.2485 18.5691 85.3728 19.6933C84.4972 20.8187 83.6368 21.8929 82.7955 22.9181C81.9515 23.9449 81.2711 24.689 80.7524 25.1508C76.8301 28.4849 74.798 27.7744 74.798 27.7744ZM63.4878 50.6548C62.5472 51.7789 61.3481 53.0855 59.8891 54.5742C58.4302 56.0624 56.9075 57.5834 55.3177 59.1387C53.7291 60.6924 52.5455 62.0666 51.7675 63.2574C48.2655 68.4822 44.2461 73.6928 39.7063 78.8868C35.1682 84.0798 30.4996 88.8922 25.7005 93.3251C24.3383 94.5814 23.156 95.7227 22.1499 96.7487C21.1451 97.7739 20.2044 98.7331 19.3288 99.6267C18.4541 100.52 17.5628 101.379 16.6543 102.207C15.7736 103.009 14.7396 103.796 13.5531 104.568C13.4843 104.613 13.3977 104.635 13.3166 104.624C12.6036 104.532 12.0794 104.189 11.7424 103.595C11.3863 102.966 11.2076 102.222 11.2076 101.364C11.2076 100.503 11.3377 99.659 11.5962 98.8325C11.8539 98.0123 12.1428 97.3396 12.4629 96.8133C12.4688 96.8028 12.4752 96.7939 12.482 96.784C13.905 94.8051 15.2148 92.924 16.411 91.1422C17.6118 89.3557 18.8595 87.6024 20.1558 85.8831C21.4538 84.1616 22.8477 82.4245 24.3383 80.6729C25.8306 78.9191 27.5484 77.0837 29.4931 75.1655C32.8003 71.9234 36.2048 68.7481 39.7063 65.6387C43.6624 62.1983 47.6991 59.0225 51.8161 56.1124C55.8406 53.2667 59.8781 50.771 63.933 48.6217C64.151 48.5055 64.4319 48.6518 64.4382 48.9027C64.4471 49.3004 64.1303 49.884 63.4878 50.6548ZM283.833 30.0136C283.508 29.9482 282.811 30.2465 281.742 30.9067C281.261 31.2036 280.716 31.5849 280.112 32.042C280.112 32.042 267.517 40.0366 261.402 40.433H261.074C260.749 40.433 260.311 40.3831 259.761 40.2841C259.359 40.2122 258.915 40.0263 258.427 39.7259C258.214 39.5933 258.042 39.2809 258.08 39.0287C258.622 35.4178 267.28 29.2467 267.28 29.2467C267.293 29.2295 267.31 29.2136 267.322 29.1964C267.457 29.0784 268.015 28.6227 268.999 27.8304C270.072 26.9713 271.204 25.9621 272.403 24.804C273.603 23.6467 274.676 22.4563 275.614 21.2314C276.556 20.0079 276.927 19.0326 276.733 18.304C276.67 17.9739 276.458 17.6434 276.104 17.3111C275.745 16.9811 275.339 16.7004 274.887 16.4676C274.431 16.2365 273.975 16.0385 273.523 15.8724C273.071 15.7084 272.712 15.6249 272.454 15.6249C271.352 15.6249 270.279 16.0712 269.244 16.9643L263.7 21.8765L252.312 30.1531C232.547 41.6385 231.894 37.2534 231.894 37.2534C231.763 36.5226 231.86 35.6589 232.186 34.6634C232.509 33.6679 232.898 32.654 233.353 31.6245L235.687 26.0456C236.335 24.9511 236.935 23.8877 237.487 22.8582C238.037 21.8288 238.508 20.882 238.897 20.0186C239.286 19.1549 239.48 18.4917 239.48 18.0264C239.48 17.4962 239.432 17.1132 239.335 16.8803C239.237 16.6479 239.123 16.4668 238.994 16.3333C238.863 16.1999 238.774 16.0514 238.654 15.9843C237.474 15.3301 233.547 16.2322 233.547 16.2322C232.704 16.3656 232.089 16.4822 231.699 16.5808C231.31 16.6802 230.921 16.8309 230.532 17.0297C230.143 17.2294 229.688 17.5285 229.171 17.927C228.651 18.3251 227.872 18.8898 226.835 19.6205C226.382 19.9519 225.863 20.2837 225.28 20.616C224.696 20.9474 224.128 21.2465 223.578 21.512C223.026 21.7789 222.523 22.0108 222.07 22.2097L222.057 22.2153C221.658 22.3904 221.273 21.942 221.492 21.5594C221.631 21.3158 221.791 21.101 221.973 20.9151C222.362 20.5166 222.734 20.1353 223.091 19.7686C223.447 19.4045 223.772 19.0404 224.064 18.6746C224.356 18.3088 224.501 17.8276 224.501 17.2294C224.501 16.6992 224.29 16.184 223.869 15.6848C223.447 15.1868 222.946 14.7388 222.362 14.3407C221.778 13.9422 221.161 13.6259 220.514 13.3926C219.865 13.1606 219.281 13.044 218.763 13.044C218.243 13.044 217.693 13.1111 217.109 13.2428C216.525 13.3762 215.942 13.5251 215.358 13.6891C214.775 13.8557 214.255 14.0369 213.802 14.2353L209.182 16.5175C202.641 20.3836 176.443 36.3888 170.081 37.9988C164.584 39.3902 163.865 37.7328 164.02 36.4292C164.1 35.7591 164.437 35.1458 164.917 34.6802C166.758 32.8924 168.311 31.4072 169.606 30.2615C171.065 28.9717 172.379 27.7159 173.545 26.4906C174.713 25.2675 175.832 23.895 176.901 22.3723C177.763 21.1479 178.739 19.5796 179.832 17.6688C180.273 16.8976 179.954 15.9047 179.155 15.5389C177.402 14.7354 176.003 14.0863 174.956 13.5901C173.626 12.9622 172.507 12.4983 171.601 12.2009C170.692 11.9035 169.767 11.7219 168.828 11.6547C167.887 11.5898 166.542 11.5558 164.792 11.5558C162.716 11.5558 160.527 11.8036 158.226 12.2999C155.924 12.7965 153.606 13.5406 151.272 14.5327C148.937 15.5255 146.618 16.7654 144.317 18.2545C142.015 19.7428 139.858 21.4466 137.849 23.3648C137.134 24.0938 136.146 25.0691 134.882 26.2926C133.648 27.4873 132.447 28.7815 131.275 30.1638C130.918 30.3102 130.458 30.5555 129.889 30.9067C129.409 31.2036 128.863 31.5849 128.259 32.042H128.257C128.257 32.042 115.662 40.0366 109.548 40.433H109.219C108.895 40.433 108.457 40.3831 107.907 40.2841C107.505 40.2122 107.061 40.0263 106.573 39.7259C106.359 39.5933 106.189 39.2809 106.226 39.0287C106.768 35.4178 115.425 29.2467 115.425 29.2467C115.44 29.2295 115.454 29.2136 115.469 29.1964C115.602 29.0784 116.162 28.6227 117.147 27.8304C118.217 26.9713 119.351 25.9621 120.551 24.804C121.75 23.6467 122.82 22.4563 123.761 21.2314C124.701 20.0079 125.074 19.0326 124.88 18.304C124.814 17.9739 124.603 17.6434 124.248 17.3111C123.89 16.9811 123.484 16.7004 123.031 16.4676C122.577 16.2365 122.122 16.0385 121.67 15.8724C121.215 15.7084 120.858 15.6249 120.6 15.6249C119.496 15.6249 118.427 16.0712 117.39 16.9643L116.244 17.9795L116.244 17.9799L111.846 21.8765L109.967 23.6837L105.687 27.5734C104.73 28.404 103.816 29.2342 102.937 30.0644C102.936 30.0644 102.935 30.0631 102.934 30.0636C102.74 30.0636 97.5794 33.0082 96.8013 33.4373C96.0233 33.8685 95.1 34.3643 94.0301 34.9259C92.9597 35.4884 91.8239 36.0673 90.6252 36.6625C89.4248 37.2581 88.3397 37.7539 87.3669 38.1511C83.1034 39.7216 80.9475 38.7464 80.9475 38.7464C80.1691 38.6809 79.9258 38.334 80.2172 37.7044C80.504 37.0881 80.9615 36.424 81.5917 35.7109L83.7678 32.941C84.8043 31.3207 85.9883 29.4847 87.3184 27.4335C88.6463 25.3837 90.0085 23.4147 91.4032 21.5288C92.324 20.2829 93.168 19.2904 93.9333 18.5498C94.8689 17.6451 95.7001 16.6346 96.4524 15.5668C96.9812 14.8163 97.5189 14.0743 98.0663 13.3422C99.102 11.953 100.044 10.5638 100.887 9.1745C101.729 7.78483 102.382 6.41494 103.026 5.15567C104.527 2.22569 103.513 1.03656 103.513 1.03656C103.382 0.838593 103.27 0.657402 103.172 0.49128C103.075 0.327309 102.913 0.193466 102.686 0.0944748C102.473 0.00108337 102.189 0.0389557 101.834 0.207657C101.794 0.23951 101.752 0.272217 101.712 0.303635C100.95 1.21043 100.205 2.11594 99.4763 3.02188C98.7299 3.94848 98.0495 4.77565 97.4341 5.50255C96.8165 6.23117 96.2497 6.8423 95.7314 7.33809C95.2119 7.83474 94.8229 8.08264 94.5648 8.08264C94.1103 8.08264 93.7044 7.98366 93.3483 7.78482C92.9918 7.58642 92.6024 7.37296 92.1813 7.14012C91.7593 6.90901 91.2892 6.71061 90.7713 6.54491C90.2514 6.38008 89.5705 6.33059 88.7283 6.39558C87.5612 6.46228 86.1826 6.74289 84.5948 7.23954C83.0054 7.73534 81.3678 8.42995 79.6825 9.32298C77.9955 10.216 76.3423 11.2752 74.7224 12.4983C73.1005 13.724 71.658 15.0784 70.3938 16.567C69.1292 18.0557 68.1235 19.661 67.3784 21.3799C66.6325 23.1014 66.3237 24.9202 66.4542 26.8383C66.5189 27.9633 66.8754 28.8727 67.5246 29.5673C68.1717 30.2615 68.9007 30.8072 69.7129 31.204C70.5227 31.6013 71.3662 31.8664 72.2418 31.9981C72.2418 31.9981 74.801 32.91 79.2424 28.4372C79.4012 28.2766 79.6846 28.3873 79.7602 28.6016C79.7746 28.642 79.7885 28.6851 79.8016 28.7307C80.0035 29.43 79.7889 30.1828 79.2986 30.7134C78.9336 31.1076 78.4618 31.6516 77.8831 32.3458C77.1368 33.2389 76.3423 34.1659 75.5 35.1243C74.657 36.0836 73.8785 36.9771 73.1659 37.8034C73.1588 37.812 73.152 37.8198 73.1444 37.8284C72.1328 38.727 71.1343 39.6131 70.1227 40.5122L63.3561 45.0875C63.3468 45.0948 63.3375 45.1017 63.3282 45.109C62.5552 45.7649 61.8135 46.3562 61.1048 46.8834C60.3909 47.4124 59.8072 47.8087 59.354 48.0738C56.6959 49.6619 53.9238 51.4144 51.0381 53.3339C48.1527 55.2516 45.2501 57.2688 42.3323 59.3871C39.4145 61.5037 36.53 63.7192 33.6759 66.0359C30.8232 68.3509 28.1313 70.7326 25.6029 73.1806C22.6847 75.959 19.589 79.0014 16.3138 82.31C13.0399 85.618 10.1221 88.909 7.55948 92.1846C4.99941 95.4589 3.08558 98.6002 1.82096 101.611C0.569433 104.591 0.509032 107.102 1.64144 109.143C1.67059 109.178 1.70016 109.213 1.7293 109.248C2.80976 110.157 3.74745 111.035 4.54492 111.882C5.35632 112.741 6.24713 113.105 7.21946 112.974C8.51702 112.775 9.87921 112.279 11.3043 111.485C12.732 110.691 14.1102 109.749 15.4386 108.657C16.7687 107.566 18.0494 106.44 19.2807 105.283C20.5127 104.125 21.5831 103.116 22.4895 102.256C28.1972 96.8309 33.401 91.4228 38.1013 86.0316C42.8041 80.6385 47.2932 75.2645 51.5728 69.9054C54.2968 66.4654 57.0042 63.2574 59.6944 60.2801C62.3825 57.3054 65.0887 54.2316 67.8101 51.0585C67.8143 51.0533 67.819 51.0486 67.8236 51.0438C67.8236 51.0438 71.9077 46.6708 80.461 43.2115C81.5925 42.7536 82.844 42.2535 84.303 41.9216C85.7619 41.5915 87.3184 41.1771 88.972 40.6813C90.6252 40.1851 92.3426 39.5245 94.1264 38.6964L97.655 36.9706C97.2824 38.1025 97.2123 39.3222 97.4505 40.6318C97.5798 41.3604 97.9033 41.9716 98.4233 42.4674C98.9415 42.9636 99.5253 43.3604 100.174 43.6586C100.822 43.9556 101.487 44.1699 102.168 44.3033C102.849 44.435 103.447 44.5022 103.967 44.5022C104.615 44.5022 105.393 44.3855 106.302 44.1544C107.209 43.9233 108.15 43.6087 109.122 43.2115C109.122 43.2115 121.95 37.3459 128.921 33.5053C128.659 33.862 128.372 34.2171 128.171 34.5786C127.359 36.0341 127.019 37.3244 127.15 38.4485C127.408 40.5001 128.283 41.9716 129.775 42.8646C131.267 43.7576 132.92 44.2039 134.737 44.2039C135.773 44.2039 136.973 43.9556 138.335 43.4598C139.697 42.9636 141.09 42.3185 142.518 41.5248C143.943 40.7308 145.387 39.9045 146.846 39.0437C148.305 38.1851 149.65 37.3571 150.882 36.5631C152.113 35.7694 153.183 35.1243 154.092 34.6281C154.999 34.1314 155.648 33.884 156.037 33.884C156.037 33.884 157.375 33.4704 157.594 34.3798C157.674 34.9565 157.717 35.5254 157.723 36.0884C157.735 37.3623 158.017 38.6327 158.69 39.7069C159.22 40.5556 160.016 41.3802 161.192 41.7732C161.963 42.0305 162.732 42.17 163.478 42.269C164.223 42.3688 164.758 42.4183 165.083 42.4183C166.769 42.4183 168.551 42.0383 170.433 41.2769L178.493 37.2633C178.507 37.2564 180.465 36.1994 180.465 36.1994C180.938 35.9597 181.358 35.7561 181.899 35.4712C183.908 34.4138 186.665 32.8261 190.166 30.7083L194.641 28.0287L209.231 19.8921C210.267 19.5611 210.965 19.4944 211.322 19.6933C211.678 19.8921 211.872 20.2067 211.905 20.6358C211.937 21.067 211.984 21.583 211.711 22.0246C210.462 24.0422 207.461 26.4596 207.249 26.63C207.241 26.6369 207.233 26.6442 207.225 26.6511C205.899 27.9711 204.509 29.2902 203.054 30.6088C201.595 31.9335 200.006 33.2389 198.288 34.5291C196.776 35.6636 195.076 36.6827 193.189 37.5873C192.413 37.9596 191.768 38.569 191.341 39.3278L191.334 39.3416C191.139 39.7384 191.009 40.1851 190.945 40.6813C190.907 40.9649 190.955 41.2537 191.087 41.5481C191.283 41.9832 191.651 42.3133 192.077 42.5147C192.939 42.9248 194.739 43.5661 196.878 43.1129C197.259 43.0324 197.866 42.8663 198.677 42.3731C199.487 41.8799 200.476 41.2722 201.644 40.5479C202.811 39.8253 204.108 39.0188 205.535 38.1309C206.96 37.2439 208.452 36.4051 210.009 35.6154C210.851 35.1553 211.937 34.3983 213.267 33.346C214.596 32.2942 215.991 31.2415 217.45 30.1888C218.908 29.1374 220.319 28.2164 221.681 27.4271C223.043 26.6378 224.21 26.2767 225.182 26.3417C225.895 26.4088 226.187 27.066 226.058 28.3158C225.927 29.5656 225.684 30.9777 225.328 32.5563C224.971 34.1349 224.648 35.6636 224.356 37.1428C224.356 37.1428 223.867 40.2824 225.328 41.5821C225.708 41.9195 226.073 42.2242 226.496 42.4213C226.916 42.618 227.305 42.7329 227.663 42.7656C228.018 42.7992 228.295 42.8151 228.489 42.8151C228.748 42.8151 229.332 42.6998 230.24 42.4708C231.148 42.241 232.201 41.9445 233.401 41.5838C234.6 41.2223 235.93 40.779 237.389 40.2518C238.848 39.7263 240.29 39.1677 241.718 38.5755C242.819 38.1171 243.727 37.6885 244.441 37.2947C245.154 36.9009 245.803 36.5403 246.387 36.211C246.97 35.8822 247.553 35.5538 248.137 35.2246C248.721 34.8958 249.402 34.5351 250.18 34.1401C250.894 33.8237 251.572 33.3417 252.256 32.8847C251.446 33.8285 250.595 34.7619 250.034 35.7695C249.223 37.2245 248.979 38.8458 249.305 40.6318C249.434 41.3604 249.758 41.9716 250.277 42.4674C250.796 42.9636 251.379 43.3604 252.028 43.6586C252.676 43.9556 253.341 44.1699 254.022 44.3033C254.703 44.435 255.302 44.5022 255.822 44.5022C256.469 44.5022 257.247 44.3855 258.156 44.1544C259.063 43.9233 260.004 43.6087 260.977 43.2115C260.977 43.2115 280.049 34.49 284.319 31.353C284.712 31.0663 284.809 30.676 284.809 30.4104C284.809 30.1466 284.479 30.0136 283.833 30.0136Z"
+                                fill="white" />
+                        </svg>
+                        <svg class="italia__continer__img3" xmlns="http://www.w3.org/2000/svg" width="9" height="9"
+                            viewBox="0 0 9 9" fill="none">
+                            <path
+                                d="M0.762264 5.62481C0.923614 5.9562 1.13437 6.31943 1.39456 6.71623C1.65306 7.11347 1.97789 7.46035 2.36732 7.75817C2.75676 8.05555 3.17744 8.20447 3.63151 8.20447H3.74851C4.55822 8.20447 5.31261 7.7246 5.61292 6.95811C5.66994 6.8135 5.72274 6.66674 5.77131 6.5174C5.96603 5.9222 6.12695 5.46041 6.25832 5.12816C6.32167 4.99646 6.5012 4.83077 6.79265 4.63237C7.08452 4.43353 7.39116 4.20243 7.71682 3.93775C8.04037 3.67436 8.33223 3.39203 8.59242 3.09378L8.60045 3.08517C8.99157 2.63242 8.82219 1.92316 8.26972 1.70496C7.78608 1.51388 7.26106 1.29869 6.69549 1.05983C5.75484 0.663028 5.02581 0.464191 4.5067 0.464191C4.1181 0.464191 3.66362 0.597616 3.14535 0.861005C2.6254 1.12655 2.15571 1.4562 1.73544 1.85344C1.31263 2.25067 0.97175 2.73141 0.713673 3.29262C0.453484 3.85555 0.388443 4.43353 0.518959 5.02874C0.518959 5.09588 0.599223 5.29471 0.762264 5.62481Z"
+                                fill="white" />
+                        </svg>
+                        <svg class="italia__continer__img4" xmlns="http://www.w3.org/2000/svg" width="9" height="9"
+                            viewBox="0 0 9 9" fill="none">
+                            <path
+                                d="M6.52218 1.05983C5.58026 0.663028 4.84952 0.464191 4.32999 0.464191C3.94139 0.464191 3.48943 0.597616 2.9699 0.861005C2.45037 1.12655 1.98155 1.4562 1.55916 1.85344C1.13678 2.25067 0.794637 2.73141 0.536983 3.29262C0.279328 3.85555 0.211722 4.43353 0.342661 5.02874C0.342661 5.09588 0.422947 5.29471 0.587677 5.62481C0.748183 5.9562 0.959375 6.31943 1.22125 6.71623C1.47891 7.11261 1.80414 7.46035 2.19274 7.75817C2.58133 8.05555 3.00369 8.20447 3.45564 8.20447H4.81573C5.14097 7.67554 5.40284 7.11261 5.59714 6.5174C5.79144 5.9222 5.95194 5.46041 6.08288 5.12816C6.14624 4.99646 6.32788 4.83077 6.61932 4.63237C6.91077 4.43353 7.21487 4.20243 7.54011 3.93775C7.86535 3.67436 8.15678 3.39203 8.41866 3.09378C8.67632 2.79682 8.87061 2.44908 9.00154 2.05228C8.28771 1.78846 7.45987 1.45621 6.52218 1.05983Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <source srcset="./assets/images/italia.avif" type="image/avif">
+                    <source srcset="./assets/images/italia.webp" type="image/webp">
+                    <img src="./assets/images/italia.png" alt="ИТАЛИЯ">
+                </picture>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe__wrap">
+                <div class="subscrube__mailing__phone">
+                    <picture class="subscrube__mailing__phone-img1">
+                        <source srcset="./assets/images/phone.avif" type="image/avif">
+                        <img src="./assets/images/phone.png" alt="Скидка">
+                        <source srcset="./assets/images/phone.webp" type="image/webp">
+                    </picture>
+                    <picture class="subscrube__mailing__phone-img2">
+                        <source srcset="./assets/images/phone-inside.avif" type="image/avif">
+                        <img src="./assets/images/phone-inside.png" alt="Скидка">
+                        <source srcset="./assets/images/phone-inside.webp" type="image/webp">
+                    </picture>
+                </div>
+                <span class="subscribe__title">ОФОРМИТЕ ПОДПИСКУ НА РАССЫЛКУ INTEFRA</span>
+                <article class="subscribe__nav">
+                    <div class="subcribe__nav__name">
+                        <input type="text" placeholder="Имя" class="subcribe__nav__name-text">
+                    </div>
+                    <div class="subcribe__nav__phone">
+                        <input type="text" placeholder="Телефон" class="subcribe__nav__name-phone">
+                    </div>
+                </article>
+                <div class="subscribe__arrange">
+                    <a href="#" class="subscribe__arrange__text">оформить рассылку</a>
+                </div>
+            </div>
+
+            <div class="subscribe__wrapper">
+                <div class="subscribe__facts">
+                    <div class="subscribe__fact">
+                        <picture class="subscrube__fact-img1">
+                            <source srcset="./assets/images/fact1.avif" type="image/avif">
+                            <img src="./assets/images/fact1.png" alt="Скидка">
+                            <source srcset="./assets/images/fact1.webp" type="image/webp">
+                        </picture>
+                        <span class="subscrube__fact-text1">Работаем<br>с 2012 года</span>
+                        <div class="subscribe__fact-border1"></div>
+                    </div>
+                    <div class="subscribe__fact">
+                        <picture class="subscrube__fact-img2">
+                            <source srcset="./assets/images/fact2.avif" type="image/avif">
+                            <img src="./assets/images/fact2.png" alt="Скидка">
+                            <source srcset="./assets/images/fact2.webp" type="image/webp">
+                        </picture>
+                        <span class="subscrube__fact-text2">100% <br>оригинальные вещи</span>
+                        <div class="subscribe__fact-border2"></div>
+                    </div>
+                    <div class="subscribe__fact">
+                        <picture class="subscrube__fact-img3">
+                            <source srcset="./assets/images/fact3.avif" type="image/avif">
+                            <img src="./assets/images/fact3.png" alt="Скидка">
+                            <source srcset="./assets/images/fact1.webp" type="image/webp">
+                        </picture>
+                        <span class="subscrube__fact-text1">Доставка
+                            <br>по России</span>
+                        <div class="subscribe__fact-border3"></div>
+                    </div>
+                    <div class="subscribe__fact">
+                        <picture class="subscrube__fact-img4">
+                            <source srcset="./assets/images/fact4.avif" type="image/avif">
+                            <img src="./assets/images/fact4.png" alt="Скидка">
+                            <source srcset="./assets/images/fact4.webp" type="image/webp">
+                        </picture>
+                        <span class="subscrube__fact-text1">Есть услуга
+                            <br>“Примерки”</span>
+                        <div class="subscribe__fact-border4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <!--@@include('layout/_footer.html')-->
+    <section class="Footer">
+
+        <article class="Footer__title">
+            <picture class="Footer__title-img">
+                <source srcset="./assets/images/logo.avif" type="image/avif">
+                <source srcset="./assets/images/logo.webp" type="image/webp">
+                <img src="./assets/images/logo.png" alt="Скидка">
+            </picture>
+            <div class="Footer__title-discription">
+                <span class="Footer__title-discr">INTEFRA – российская платформа, на которой <br> объединены ведущие
+                    итальянские бренды <br>одежды, обуви и аксессуаров.
+                </span>
+            </div>
+            <div class="Footer__title-footer">
+                <span class="Footer__title-foot">
+                    INTEFRA.RU - с 2012 года - 100% оригинальные товары
+                </span>
+            </div>
+        </article>
+
+        <article class="Footer__middle">
+            <ul class="Footer__middle-column">
+                <a href="#" class="Footer__middle-text">Обувь</a>
+                <a href="#" class="Footer__middle-text">Джинсы и брюки</a>
+                <a href="#" class="Footer__middle-text">Верхняя одежда</a>
+                <a href="#" class="Footer__middle-text">Спортивные костюмы</a>
+                <a href="#" class="Footer__middle-text">Пиджаки и костюмы</a>
+                <a href="#" class="Footer__middle-text">Cвитера, поло, джемперы</a>
+            </ul>
+        </article>
+
+        <article class="Footer__belt">
+            <ul class="Footer__belt-column">
+                <a href="#" class="Footer__belt-text">Футболки и поло</a>
+                <a href="#" class="Footer__belt-text">Сумки</a>
+                <a href="#" class="Footer__belt-text">Ремни</a>
+                <a href="#" class="Footer__belt-text">Аксессуары</a>
+                <a href="#" class="Footer__belt-text">Бренды</a>
+            </ul>
+        </article>
+
+        <article class="Footer__foter">
+            <ul class="Footer__column1">
+                <li href="#" class="Footer__belt-column-text1">Офис в России</li>
+                <li href="#" class="Footer__belt-column-text2">Москва, Кутузовский пр. 2</li>
+                <li href="#" class="Footer__belt-column-text2">Санкт-Петербург, Большой проспект П.С. 13</li>
+            </ul>
+
+            <ul class="Footer__column2">
+                <li href="#" class="Footer__belt-column-text3">Офис в Италии</li>
+                <li href="#" class="Footer__belt-column-text4">Milano, Via Manzoni 23</li>
+            </ul>
+        </article>
+
+        <article class="Footer__office">
+            <div class="Footer__office-pic">
+                <picture class="Footer__office-img1">
+                    <source srcset="./assets/images/office.avif" type="image/avif">
+                    <img src="./assets/images/office.png" alt="Скидка">
+                    <source srcset="./assets/images/office.webp" type="image/webp">
+                </picture>
+
+                <picture class="Footer__office-img2">
+                    <source srcset="./assets/images/office.avif" type="image/avif">
+                    <img src="./assets/images/office.png" alt="Скидка">
+                    <source srcset="./assets/images/office.webp" type="image/webp">
+                </picture>
+            </div>
+        </article>
+
+        <article class="Footer__nav">
+            <a href="#" class="Footer__nav-pic">
+                <picture class="Footer__office-img1">
+                    <source srcset="./assets/images/nav1.avif" type="image/avif">
+                    <img src="./assets/images/nav1.png" alt="Скидка">
+                    <source srcset="./assets/images/nav1.webp" type="image/webp">
+                </picture>
+                <picture class="Footer__office-img2">
+                    <source srcset="./assets/images/nav2.avif" type="image/avif">
+                    <img src="./assets/images/nav2.png" alt="Скидка">
+                    <source srcset="./assets/images/nav2.webp" type="image/webp">
+                </picture>
+            </a>
+        </article>
+
+        <article class="Footer__border">
+
+        </article>
+    </section>
+    
+
+    <section class="category">
+        <div class="category__wrap">
+            <article class="category__title">
+                <h0 class="category__title__text">ВЫБЕРИТЕ КАТЕГОРИЮ</h0>
+            </article>
+            <article class="category__close">
+                <a href="#" class="category__close__title">ЗАКРЫТЬ</a>
+                <div class="category__close__border"></div>
+            </article>
+            <p></p><p></p><p></p>
+            <div class="category__cards">
+                <picture class="category__card">            <!--НАЧАЛО-->
+                    <span class="category__card__text1">
+                        <a href="#" class="category__card__text2">Вся <br>
+                            коллекция</a>
+                    </span>
+                    <source srcset="./assets/images/cat1.avif" type="image/avif">
+                    <img  class="category__card__img" src="./assets/images/cat1.png" alt="Категория">
+                    <source  srcset="./assets/images/cat1.webp" type="image/webp">
+                </picture>
+                <picture class="category__card">
+                    <span class="category__card__text3"> <!--2-->
+                        <a href="#" class="category__card__text2">
+                            Новинки</a>
+                    </span>
+                    <source srcset="./assets/images/cat2.avif" type="image/avif">
+                    <img  class="category__card__img" src="./assets/images/cat2.png" alt="Категория">
+                    <source  srcset="./assets/images/cat2.webp" type="image/webp">
+                </picture>
+                <picture class="category__card">    <!--3-->
+                    <span class="category__card__text3">
+                        <a href="#" class="category__card__text2">Скидки
+                        </a>
+                    </span>
+                    <source srcset="./assets/images/cat3.avif" type="image/avif"> 
+                    <img  class="category__card__img" src="./assets/imges/cat3.png" alt="Категория">
+                    <source  srcset="./assets/images/cat3.webp" type="image/webp">
+                </picture>
+                <picture class="category__card4">            <!--4-->
+                    <span class="category__card__text1">
+                        <a href="#" class="category__card__text2">Верхняя
+                            <br>одежда </a>
+                    </span>
+                    <source srcset="./assets/images/cat4.avif" type="image/avif">
+                    <img  class="category__card__img4" src="./assets/images/cat4.png" alt="Категория">
+                    <source  srcset="./assets/images/cat4.webp" type="image/webp">
+                </picture>
+            </div>
+            <p></p>
+            <div class="category__cards">   
+                <picture class="category__card">        <!--5-->
+                    <span class="category__card__text3">
+                        <a href="#" class="category__card__text2">Пуховики</a>
+                    </span>
+                    <source srcset="./assets/images/cat5.avif" type="image/avif">
+                    <img  class="category__card__img5" src="./assets/images/cat5.png" alt="Категория">
+                    <source  srcset="./assets/images/cat5.webp" type="image/webp">
+                </picture>
+                <picture class="category__card">        <!--6-->
+                    <span class="category__card__text3">
+                        <a href="#" class="category__card__text2">Жилетки</a>
+                    </span>
+                    <source srcset="./assets/images/cat6.avif" type="image/avif">
+                    <img  class="category__card__img" src="./assets/images/cat6.png" alt="Категория">
+                    <source  srcset="./assets/images/cat6.webp" type="image/webp">
+                </picture>
+                <picture class="category__card">        <!--7-->
+                    <source srcset="./assets/images/cat7.avif" type="image/avif">
+                    <img  class="category__card__img" src="../assets/images/cat7.png" alt="Категория">
+                    <source  srcset="./assets/images/cat7.webp" type="image/webp">
+                </picture>  
+                <picture class="category__card">        <!--8-->
+                    <span class="category__card__text1">
+                        <a href="#" class="category__card__text2">Спортивные
+                            <br>Костюмы </a>
+                    </span>
+                    <source srcset="./assets/images/cat8.avif" type="image/avif">
+                    <img  class="category__card__img" src="./assets/images/cat8.png" alt="Категория">
+                    <source  srcset="./assets/images/cat8.webp" type="image/webp">
+                </picture>
+            </div>
+            <p></p>
+            <div class="category__cards">   
+                <picture class="category__card9">        <!--9-->
+                    <span class="category__card__text1">
+                        <a href="#" class="category__card__text9">Свитера, поло, <br>джемперы </a>
+                            
+                    </span>
+                    <source srcset="./assets/images/cat9.avif" type="image/avif">
+                    <img  class="category__card__img9"  src="./assets/images/cat1.png" alt="Категория">
+                    <source  srcset="./assets/images/cat9.webp" type="image/webp">
+                </picture>
+                <picture class="category__card10">        <!--10-->
+                    <span class="category__card__text1">
+                        <a href="#" class="category__card__text9">Футболки <br>и поло </a>
+                            
+                    </span>
+                    <source srcset="./assets/images/cat10.avif" type="image/avif">
+                    <img  class="category__card__img10" src="./assets/images/cat10.png" alt="Категория">
+                    <source  srcset="./assets/images/cat10.webp" type="image/webp">
+                </picture>
+                <picture class="category__card11">            <!--11-->
+                    <span class="category__card__text3"> <!--2-->
+                        <a href="#" class="category__card__text2">
+                            Рубашки</a>
+                    </span>
+                    <source srcset="./assets/images/cat11.avif" type="image/avif">
+                    <img  class="category__card__img11" src="./assets/images/cat11.png" alt="Категория">
+                    <source srcset="./assets/images/cat11.webp" type="image/webp"> 
+                </picture>
+                <picture class="category__card12">                <!--12-->
+                    <span class="category__card__text1">
+                        <a href="#" class="category__card__text9">Джинсы <br>и брюки </a>
+                    </span>
+                    <source srcset="./assets/images/cat12.avif" type="image/avif">
+                    <img  class="category__card__img12" src="./assets/images/cat12.png" alt="Категория">
+                    <source srcset="./assets/images/cat12.webp" type="image/webp">
+                </picture>
+            </div>
+            <p></p>
+            <div class="category__cards">
+                <picture class="category__card13">            <!--13-->
+                    <span class="category__card__text3"> <!--2-->
+                        <a href="#" class="category__card__text2">
+                            Обувь</a>
+                    </span>
+                    <source srcset="./assets/images/cat13.avif" type="image/avif">
+                    <img class="category__card__img13" src="./assets/images/cat13.png" alt="Категория">
+                    <source  srcset="./assets/images/cat13.webp" type="image/webp">
+                </picture>
+                <picture class="category__card14">
+                    <source srcset="./assets/images/cat14.avif" type="image/avif">   <!--14-->
+                    <span class="category__card__text1">
+                        <a href="#" class="category__card__text14">Кеды и <br>кроссовки </a>
+                    </span>
+                    <img class="category__card__img14" src="./assets/images/cat14.png" alt="Категория">
+                    <source  srcset="./assets/images/cat14.webp" type="image/webp">
+                </picture>
+                <picture class="category__card15">
+                    <span class="category__card__text1"> <!--2-->
+                        <a href="#" class="category__card__text2">
+                            Сумки</a>
+                    </span>
+                    <source srcset="./assets/images/cat15.avif" type="image/avif">   <!--15-->
+                    <img class="category__card__img15" src="./assets/images/cat15.png" alt="Категория">
+                    <source  srcset="./assets/images/cat15.webp" type="image/webp">
+                </picture>
+                
+                <picture class="category__card">
+                    <span class="category__card__text1"> <!--2-->
+                        <a href="#" class="category__card__text2">
+                            Аксессуары</a>
+                    </span>
+                    <source srcset="./assets/images/cat16.avif" type="image/avif">   <!--16-->
+                    <img class="category__card__img16" src="./assets/images/cat5.png" alt="Категория">
+                    <source  srcset="./assets/images/cat16.webp" type="image/webp">
+                </picture>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    @@include('layout/_scripts.html')
+</body>
+
+</html>
+
+
+<!--<div class="ALL-BRENDS">
+                <a href="#"  class="ALL-BRENDS__TEXT">ВСЕ БРЕНДЫ</a>
+                <div class="ALL-BRENDS__line"></div>
+            </div>-->

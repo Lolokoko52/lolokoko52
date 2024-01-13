@@ -1,0 +1,62 @@
+.form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+ 
+    &__group{ 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    } 
+ 
+    &__control { 
+        margin: 10px; 
+        width: 580px; 
+        height: 45px; 
+        padding: 10px; 
+        border: 1px solid rgba(0, 0, 0, 0.282); 
+    } 
+ 
+    &__submit { 
+        margin-top: 20px; 
+        width: 130px; 
+        height: 30px; 
+        transition: all 0.2s ease-in-out; 
+    } 
+ 
+    &__text { 
+        width: 500px; 
+        text-align: center; 
+        color: #0000005c; 
+    } 
+ 
+    &__arrow { 
+        position: absolute; 
+        bottom: 20px; 
+        right: 30px; 
+        display: block; 
+        width: 1px; 
+        height: 20px; 
+        background-color: #000; 
+ 
+        &::before, 
+        &::after { 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            width: 1px; 
+            height: 10px; 
+            background-color: #000; 
+            transform-origin: center bottom; 
+            content: ''; 
+        } 
+ 
+        &::before { 
+            transform: rotate(30deg); 
+        } 
+ 
+        &::after { 
+            transform: rotate(-30deg); 
+        } 
+    } 
+}

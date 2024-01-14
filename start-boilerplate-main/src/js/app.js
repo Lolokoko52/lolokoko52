@@ -1,12 +1,11 @@
 
 import initSlider from "./modules/_slider.js"; 
-import requestDialogInit from "./modules/request-dialog.js"; 
-import requestCatalogInit from "./modules/menu";
+import requestDialogInit from "./modules/_request-dialog.js"; 
+
  
 const init = () => { 
     initSlider() 
     requestDialogInit() 
-    requestCatalogInit()
 } 
  
 init()
